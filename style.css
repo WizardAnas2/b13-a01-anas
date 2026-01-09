@@ -262,3 +262,30 @@ padding-top: 40px;
   background-size: contain;
   background-repeat: no-repeat;
 }
+.bottom-part{
+  display: flex;
+  flex-direction: column;
+  padding: 80px 40px auto 40px;
+  margin: 120px;
+  background-color: #F7F6F2;
+  text-align: center;
+
+}
+.sachead{
+  align-items: center;
+}
+.boro-txt{
+  padding-top: 80px;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 48px;
+  color: #001931;
+}
+.p-tag{
+  padding-top: 16px;
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
