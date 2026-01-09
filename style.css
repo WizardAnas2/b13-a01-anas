@@ -202,3 +202,63 @@ justify-content: center;
 .sk-text{
   color: #627382
 }
+#chobi{
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.pic-txt{
+  display: flex;
+  gap: 60px;
+}
+.picsec{
+  width: 600px;
+  height: 600px;
+  border-radius: 12px;
+}
+.arekta-text{
+ font-size: 16px;
+ color: #30B868;
+ font-weight: 500;
+ line-height: 20px;
+ margin-top: 120px;
+}
+.arokta-text{
+  margin-top: 16px;
+  font-size: 48px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: left;
+  color: #000000;
+}
+.ajaira-lekha{
+  width: 700px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+font-size: 16px;
+padding-top: 40px;
+}
+.feature-list {
+  margin: 0;
+  padding-top: 20px;
+}
+
+.feature-list dt {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.feature-list dt::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  background-image: url('./assets/CheckCircle.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+}
